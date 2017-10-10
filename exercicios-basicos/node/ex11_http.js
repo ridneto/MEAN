@@ -5,6 +5,7 @@ const server = http.createServer(function(req, resp){
 })
 
 const porta = 3456
+
 server.listen(porta, function(){
   console.log(`Escutando a ${porta}`)
 })
